@@ -1,0 +1,44 @@
+* {
+    font-family: Tahoma, monospace;
+}
+
+a {
+    color: #0074A2;
+}
+
+a:hover {
+    color: #003300;
+}
+
+.bar {
+
+    border-top-color: red;
+    border-right-color: red;
+    border-left-color: red;
+    border-bottom-color: red;
+}
+
+.bar b {
+    color: #FF3399;
+}
+
+.bold {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
+.underlined {
+    text-decoration: underline;
+}
+
+
+.contact-form {
+    align-content: center;
+    width: 700px;
+    padding: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #444;
+
+}

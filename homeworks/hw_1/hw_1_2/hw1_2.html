@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Send a message</title>
+</head>
+<body>
+<h3>Send a message</h3>
+<form method="post" enctype="multipart/form-data">
+    <table cellpadding="5">
+        <tr>
+            <td><label for="name">Name:</label></td>
+            <td><input type="text" id="name" placeholder="Enter your name"></td>
+        </tr>
+        <tr>
+            <td><label for="email">E-mail:</label></td>
+            <td><input type="text" id="email" name="email" placeholder="Enter your e-mail"></td>
+        </tr>
+        <tr>
+            <td><label for="phone">Phone:</label></td>
+            <td><input type="text" id="phone" name="phone" placeholder="Enter your name"></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                Gender: <br>
+                <input type="radio" name="gender" value="male" checked> male
+                <input type="radio" name="gender" value="female"> female
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                Application for:<br>
+                employment <input type="checkbox" name="employment" checked> or/and
+                education <input type="checkbox" name="education">
+            </td>
+        <tr>
+            <td colspan="2">
+                <select multiple name="countries">
+                    <option selected value="0">Choose your country</option>
+                    <option value="ua">Ukraine</option>
+                    <option value="us">USA</option>
+                    <option value="ca" disabled>Canada</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                Attach your CV
+                <input type="file" name="cv">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <input type="text" id="message" placeholder="Enter your message:">
+                <input type="submit" id="button" value="Send">
+            </td>
+        </tr>
+    </table>
+    <input type="hidden" name="date" value="24.01.18">
+</form>
+
+</body>
+</html>

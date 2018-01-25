@@ -1,0 +1,63 @@
+.container {
+    width: 1000px;
+    align-content: center;
+    padding: 1px;
+    background: white;
+}
+
+.header, .footer, .menu {
+    margin: 20px;
+    padding: 10px;
+}
+
+.menu{
+    border-top-style: solid;
+    border-top-color: #EDEDED;
+
+    border-bottom-style: solid;
+    border-bottom-color: #EDEDED;
+}
+
+.content {
+    padding: 20px;
+}
+
+.header {
+    height: 50px;
+
+    font-style: italic;
+    background: #BCBE97;
+}
+
+.footer{
+    height: 40px;
+    align-content: center;
+    background: #F2F2F2;
+}
+.contact-form {
+
+    width: 700px;
+    padding: 10px;
+    border: 2px solid #444;
+    margin: 0 auto;
+}
+.body {
+    background: #E5E5E5;
+}
+
+.flower {
+    float: right;
+
+}
+
+.flower img {
+    height: 40px;
+    width: 40px;
+    margin-left: 50px;
+    float: left;
+
+}
+
+h3 {
+    color: #403E3F;
+}
